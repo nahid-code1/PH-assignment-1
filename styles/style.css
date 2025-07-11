@@ -167,3 +167,31 @@ form ::placeholder {
   margin-top: 19px;
   border-radius: 12px;
 }
+/* footer styles */
+.footer-section {
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  max-width: 450px;
+  margin-left: 700px;
+  text-decoration: none;
+}
+ul li {
+  /* display: flex; */
+  text-decoration: none;
+}
+footer p {
+  color: rgba(137, 135, 161, 1);
+  font-size: 16px;
+  max-width: 530px;
+  margin-left: 700px;
+}
+.footer-logo {
+  color: #4e47ff;
+  font-weight: 900;
+  font-size: 80px;
+}
