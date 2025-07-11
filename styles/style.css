@@ -1,0 +1,170 @@
+.raleway-nahid-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.inter-nahid-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.header {
+  background-image: url("../Assets/Hero-bg.png");
+  background-color: rgb(226, 230, 235);
+}
+/* nav styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 150px;
+}
+.nav-title {
+  font-size: 34px;
+  color: #4e47ff;
+  font-weight: 900;
+}
+.button-style {
+  background-color: #4e47ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 5px;
+}
+
+body {
+  background-color: rgb(240, 246, 253);
+  width: 100%;
+  margin: none;
+}
+/* banner style */
+.banner {
+  margin: 90px 267px 152px 267px;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(37, 150, 190);
+  padding: 0 20px;
+  display: block;
+}
+.banner-button {
+  display: block;
+  margin-top: 37px;
+}
+/* action styles */
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 116px;
+  margin-right: 160px;
+  margin-left: 140px;
+}
+.action-content {
+  width: 40%;
+}
+.action-content-text {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+}
+.action-content h2 {
+  font-size: 42px;
+}
+.action-image img {
+  border-radius: 30px;
+}
+/* productive user styles */
+.productive-user {
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  margin: 116px 160px 100px 140px;
+}
+.productive-user-number {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 142px;
+}
+.productive-user-title h3 {
+  font-size: 30px;
+}
+
+.user-text {
+  font-weight: 300;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+.user-number-alignment {
+  margin-right: 158px;
+  margin-left: 158px;
+}
+
+.user-number {
+  font-size: 80px;
+  color: #4e47ff;
+  margin: 0;
+}
+/* newsletter styles */
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 170px;
+  margin-top: 200px;
+}
+.newsletter h1 {
+  font-size: 97px;
+  max-width: 528px;
+}
+.input-title {
+  font-size: 18px;
+}
+form input[type="text"] {
+  width: 497px;
+  height: 50px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0px 20px 32px;
+  border-radius: 10px;
+  border: none;
+}
+form input[type="email"] {
+  width: 497px;
+  height: 50px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0px 20px 32px;
+  border-radius: 10px;
+  border: none;
+}
+form textarea {
+  width: 497px;
+  height: 120px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0px 20px 32px;
+  border-radius: 15px;
+  border: none;
+}
+form ::placeholder {
+  font-size: 20px;
+}
+.newsletter-form a button {
+  width: 530px;
+  height: 55px;
+  margin-top: 19px;
+  border-radius: 12px;
+}
