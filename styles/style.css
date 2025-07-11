@@ -37,10 +37,9 @@ nav {
   border-radius: 5px;
 }
 
-body {
+.whole-site {
   background-color: rgb(240, 246, 253);
-  width: 100%;
-  margin: none;
+  margin: 0 auto;
 }
 /* banner style */
 .banner {
@@ -51,7 +50,7 @@ body {
   align-items: center;
 }
 .banner-content {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   color: rgb(37, 150, 190);
   padding: 0 20px;
